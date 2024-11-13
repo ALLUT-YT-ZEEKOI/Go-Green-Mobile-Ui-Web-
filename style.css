@@ -1,0 +1,35 @@
+body {
+  font-family: "Poppins", serif;
+}
+.grop-img_z1 {
+  width: 37px;
+}
+.main_name_z1 {
+  color: #1d2730;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 700;
+  padding: 3px 10px 0px 10px;
+}
+.down-arrow_z1 {
+  width: 13px;
+  height: 11px;
+}
+.location_z1 {
+  color: #909090;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.profile_z1 {
+  width: 48px;
+  height: 47px;
+}
+.parent_div_z1 {
+  padding: 10px;
+}
