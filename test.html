@@ -1,159 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carousel with Slide Animation</title>
     <style>
-        /* Carousel container styling */
-        
-        .first_courcel_z1 {
-            width: 100%;
-            background: #e7f9ff;
-            border-radius: 15px;
-            margin-top: 21px;
-            padding: 20px;
-            overflow: hidden;
-            position: relative;
-        }
-        /* Carousel track styling */
-        
-        .carousel-content {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-            width: 200%;
-        }
-        /* Each carousel item */
-        
-        .carousel-item {
-            flex: 0 0 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 15px;
-        }
-        /* Image and text styles */
-        
-        .first_courcel_z1 img {
-            width: 42px;
-            margin-right: 10px;
-        }
-        
-        .get_in_z1 {
-            color: #212121;
-            font-size: 15px;
-            line-height: 2;
-            font-weight: 500;
-        }
-        
-        .at_yout_text_1z {
-            color: #212121;
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 1.5;
-        }
-        /* Subscribe button styling */
-        
-        .subscribe_btn_z1 {
-            background: #d2efff;
-            border-radius: 40px;
-            border: 1px #047abc solid;
-            padding: 8px 16px;
-            margin-top: 10px;
-        }
-        
-        .sub_btn_text_z1 {
-            color: #047abc;
-            font-size: 13px;
-            font-weight: 500;
-            text-align: center;
-        }
-        /* Dot indicators */
-        
-        .carousel-indicators {
-            text-align: center;
-            margin-top: 10px;
-        }
-        
-        .dot {
-            height: 10px;
-            width: 10px;
-            margin: 0 5px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-            cursor: pointer;
-        }
-        
-        .dot.active {
-            background-color: #047abc;
-        }
+      /* Carousel container styling */
+
+      .first_courcel_z1 {
+        width: 100%;
+        background: #e7f9ff;
+        border-radius: 15px;
+        margin-top: 21px;
+        padding: 20px;
+        overflow: hidden;
+        position: relative;
+      }
+      /* Carousel track styling */
+
+      .carousel-content {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 200%;
+      }
+      /* Each carousel item */
+
+      .carousel-item {
+        flex: 0 0 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+      }
+      /* Image and text styles */
+
+      .first_courcel_z1 img {
+        width: 42px;
+        margin-right: 10px;
+      }
+
+      .get_in_z1 {
+        color: #212121;
+        font-size: 15px;
+        line-height: 2;
+        font-weight: 500;
+      }
+
+      .at_yout_text_1z {
+        color: #212121;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      /* Subscribe button styling */
+
+      .subscribe_btn_z1 {
+        background: #d2efff;
+        border-radius: 40px;
+        border: 1px #047abc solid;
+        padding: 8px 16px;
+        margin-top: 10px;
+      }
+
+      .sub_btn_text_z1 {
+        color: #047abc;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+      }
+      /* Dot indicators */
+
+      .carousel-indicators {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .dot {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+      }
+
+      .dot.active {
+        background-color: #047abc;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="first_courcel_z1">
-        <div class="carousel-content" id="carouselContent">
-            <!-- Slide 1 -->
-            <div class="carousel-item">
-                <div class="d-flex">
-                    <img src="assets/Group 1721 1.png" alt="" />
-                    <div style="line-height: 1.2; padding-left: 3px">
-                        <span class="get_in_z1">Get farm fresh milk delivered</span><br />
-                        <span class="at_yout_text_1z">at your Door Step</span>
-                    </div>
-                </div>
+      <div class="carousel-content" id="carouselContent">
+        <!-- Slide 1 -->
+        <div class="carousel-item">
+          <div class="d-flex">
+            <img src="assets/Group 1721 1.png" alt="" />
+            <div style="line-height: 1.2; padding-left: 3px">
+              <span class="get_in_z1">Get farm fresh milk delivered</span><br />
+              <span class="at_yout_text_1z">at your Door Step</span>
             </div>
-            <!-- Slide 2 -->
-            <div class="carousel-item">
-                <div class="d-flex">
-                    <img src="assets/Group 1721 1.png" alt="" />
-                    <div style="line-height: 1.2; padding-left: 3px">
-                        <span class="get_in_z1">Enjoy organic produce delivered</span
-              ><br />
-              <span class="at_yout_text_1z">right to your home</span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Slide 2 -->
+      </div>
 
-        <!-- Dot indicators -->
-        <div class="carousel-indicators">
-            <span class="dot active" onclick="setCurrentSlide(0)"></span>
-            <span class="dot" onclick="setCurrentSlide(1)"></span>
-        </div>
+      <!-- Dot indicators -->
+      <div class="carousel-indicators">
+        <span class="dot active" onclick="setCurrentSlide(0)"></span>
+        <span class="dot" onclick="setCurrentSlide(1)"></span>
+      </div>
     </div>
 
     <script>
-        let currentSlideIndex = 0;
-        const carouselContent = document.getElementById("carouselContent");
-        const dots = document.querySelectorAll(".dot");
+      let currentSlideIndex = 0;
+      const carouselContent = document.getElementById("carouselContent");
+      const dots = document.querySelectorAll(".dot");
 
-        function updateCarousel() {
-            const offset = -currentSlideIndex * 100; // Offset for sliding effect
-            carouselContent.style.transform = `translateX(${offset}%)`;
+      function updateCarousel() {
+        const offset = -currentSlideIndex * 100; // Offset for sliding effect
+        carouselContent.style.transform = `translateX(${offset}%)`;
 
-            // Update active dot
-            dots.forEach((dot, index) => {
-                dot.classList.toggle("active", index === currentSlideIndex);
-            });
-        }
+        // Update active dot
+        dots.forEach((dot, index) => {
+          dot.classList.toggle("active", index === currentSlideIndex);
+        });
+      }
 
-        function nextSlide() {
-            currentSlideIndex = (currentSlideIndex + 1) % dots.length;
-            updateCarousel();
-        }
+      function nextSlide() {
+        currentSlideIndex = (currentSlideIndex + 1) % dots.length;
+        updateCarousel();
+      }
 
-        function setCurrentSlide(index) {
-            currentSlideIndex = index;
-            updateCarousel();
-        }
+      function setCurrentSlide(index) {
+        currentSlideIndex = index;
+        updateCarousel();
+      }
 
-        // Auto-slide every 3 seconds
-        setInterval(nextSlide, 3000);
+      // Auto-slide every 3 seconds
+      setInterval(nextSlide, 3000);
     </script>
-</body>
-
+  </body>
 </html>
