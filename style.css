@@ -144,23 +144,66 @@ body {
   margin-top: 15px;
 }
 
-/* Text styling */
-
 .head_category_z1 {
   color: #212121;
   font-size: 16px;
   font-weight: 300;
   white-space: nowrap;
-  /* Prevents text from wrapping */
 }
-
-/* Line styling */
 
 .line_z1,
 .line_z2 {
   flex: 1;
-  /* Allows the lines to stretch evenly */
   height: 2px;
   background: linear-gradient(90deg, #f3f3f3 0%, white 100%);
   border-radius: 100px;
+}
+
+/* <!-- Direct From Farm category--> */
+
+.category_main_boxz1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category_horizontal_move {
+  overflow-y: scroll;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.category_image_1z1 {
+  width: 80px;
+  margin: 1px 18px 0px 5px;
+}
+
+.category_text_1z1 {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.banner_img_z1z1 {
+  width: 100%;
+  position: relative;
+}
+
+.clould_icon_z1 {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  width: 42px;
+}
+
+.banner_img_z1z1_text {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: -19%;
+  transform: translate(50%, -50%);
 }

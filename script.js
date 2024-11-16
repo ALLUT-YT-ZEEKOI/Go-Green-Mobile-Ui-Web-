@@ -24,3 +24,17 @@ function setCurrentSlide(index) {
 
 // Auto-slide every 3 seconds
 setInterval(nextSlide, 3000);
+
+//  <!-- Direct From Farm category-->
+let category_horizontal_move_loop = document.querySelector(
+  ".category_horizontal_move"
+);
+let category_main_boxz1 = document.getElementById("category_main_boxz1");
+
+for (let i = 0; i <= 5; i++) {
+  const clone = category_main_boxz1.cloneNode(true);
+  clone.style.display = "block";
+
+  category_horizontal_move_loop.appendChild(clone);
+}
+category_main_boxz1.remove();
