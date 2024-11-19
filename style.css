@@ -259,3 +259,24 @@ body {
 .Enhances_text_z1{
   color: #305D25; font-size: 4.83px; font-family: Rubik; font-weight: 500; line-height: 27.63px; word-wrap: break-word
 }
+.home_product_name_z1{
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+}
+.home_product_gram_z1{
+  color: #302F2F;
+  font-size: 10px;
+  font-weight: 400;
+}
+.home_product_price_z1{
+  color: black;
+  font-size: 10.62px;
+  font-weight: 500;
+  word-wrap: break-word
+}
+.home_product_cutprice_z1{
+  color: #9B9A9A;
+  font-size: 10px;
+  font-weight: 500;
+}
