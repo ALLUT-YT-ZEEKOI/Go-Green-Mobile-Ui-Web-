@@ -38,3 +38,13 @@ for (let i = 0; i <= 5; i++) {
   category_horizontal_move_loop.appendChild(clone);
 }
 category_main_boxz1.remove();
+
+
+// Farm fresh picks loop
+const home_parent_card = document.getElementById("home_parent_card_z1");
+const home_child_card = document.getElementById("home_child_card_z1");
+for(let i = 0 ;i<=5;i++){
+  const clone = home_child_card.cloneNode(true);
+  home_parent_card.appendChild(clone);
+}
+home_child_card.remove();
