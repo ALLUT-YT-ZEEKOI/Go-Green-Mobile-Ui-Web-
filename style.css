@@ -342,6 +342,15 @@ body {
   padding: 9px;
 }
 
+.app_product_z2_container {
+  width: 100%;
+  padding: 5px;
+  background: linear-gradient(180deg, #f3f8ff 0%, #b9d5ff 100%);
+  border-radius: 10px;
+  position: relative;
+  padding: 9px;
+}
+
 .app_product_z1_img {
   transform: translate(-23%, -50%);
   position: absolute;
@@ -371,4 +380,351 @@ body {
   color: #302f2f;
   font-size: 12px;
   font-weight: 400;
+}
+
+/* add to cart */
+.side_silder_z1 {
+  background-color: #f5f7fd;
+  padding: 12px;
+}
+
+.prodcuts_cart_details_z1 {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border-radius: 12px;
+}
+
+.slidebar_z1_img {
+  height: 30px;
+  width: 36px;
+}
+.slidebar_z1_text {
+  color: #1d2730;
+  font-size: 16px;
+  padding-left: 7px;
+  font-weight: 500;
+}
+.card_detsils_z1 {
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+  margin-bottom: 13px;
+  justify-content: space-between;
+}
+
+.card_detsils_z1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.cart_time_z1 {
+  color: #1d2730;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.cart_time_z2 {
+  color: #3a3939;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 58px;
+}
+
+.product_name_z1 {
+  color: #1d2730;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 4px;
+}
+
+.product_ml_z1 {
+  color: #1d2730;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.cart_location_z1 {
+  color: #2f9623;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.cart_add_z1 {
+  background: #2f9623;
+  border-radius: 3.69px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  color: white;
+  width: 60px;
+  height: 31px;
+}
+
+.cart_price_z1 {
+  color: #1d2730;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 3px;
+  padding-top: 1px;
+}
+
+.cart_img_z1 {
+  width: 50.83px;
+  height: 50.83px;
+  border-radius: 4.19px;
+  border: 0.7px #1d2730 solid;
+  margin-right: 9px;
+}
+
+.cart_farmer_icon_z1 {
+  width: 19px;
+  height: 15px;
+}
+
+.address_z11 {
+  color: #1d2730;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.change_address_z1 {
+  background: #fff6f1;
+  border-radius: 5.9px;
+  padding: 8px;
+  border: 1px solid #f28b51;
+  font-size: 11px;
+}
+
+.address_container_z1 {
+  width: 100%;
+  height: 67px;
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.coupon_container_z1 {
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.coupon_container_z2 {
+  width: 100%;
+  /* border-radius: 12px; */
+  padding: 8px;
+  background: rgba(192.31, 234.1, 255, 0.67);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.text_select_z1 {
+  color: #1d2730;
+  font-size: 11px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.text_view_all {
+  color: #f28b51;
+  font-size: 11px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.coupon_add_box {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 0px;
+  height: 44px;
+  width: 100%;
+}
+
+.apply_coupon_btn {
+  color: #2f9623;
+  font-size: 14px;
+  position: absolute;
+  font-weight: 500;
+  right: 29px;
+  padding-top: 21px;
+  padding-right: 5px;
+}
+
+.coupon_img_z1 {
+  width: 33px;
+  object-fit: cover;
+}
+
+.coupon_img_z2 {
+  width: 23px;
+  object-fit: cover;
+}
+
+.coupon_img_z2 {
+  color: #1d2730;
+  font-size: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.saveup_to_text_z1 {
+  background-image: initial;
+  background-color: rgb(255 255 255);
+  border: 1px solid rgb(0, 132, 210);
+  padding: 2px;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+.save_text_z1 {
+  color: #047abc;
+  font-size: 8.06px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.cut_price_amt {
+  color: #909090;
+  font-size: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-decoration: line-through;
+  word-wrap: break-word;
+}
+
+.normal_price_amt_z1 {
+  color: black;
+  font-size: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.itemtotal_text_z1 {
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.itemtotal_text_z11 {
+  color: #1d2730;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+  padding-left: 5px;
+}
+
+.itemtotal_text_z11 {
+  color: #1d2730;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.itemtotal_text_z111 {
+  color: #047abc;
+  font-size: 13px;
+  font-weight: 500;
+}
+.itemtotal_text_z1111 {
+  color: #047abc;
+  font-size: 6px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.delivery_instruction_box {
+  width: 49%;
+  margin: 3px;
+  padding: 8px;
+  border-radius: 7px;
+  border: 1px #e0dfdf solid;
+}
+
+.delivery_instruction_image_z1 {
+  width: 20px;
+  margin-right: 11px;
+}
+
+.Place_Order_z1 {
+  background: #2f9623;
+  border-radius: 43px;
+  position: fixed;
+  bottom: 0;
+  z-index: 100000000;
+  right: 0;
+  padding: 11px 10px 7px 15px;
+
+  width: 100%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-3px);
+}
+
+.Place_Order_z1:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.delivery_instruction_text_z1 {
+  color: #1d2730;
+  font-size: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+/* cashbackContainer section */
+.cashback_container_sc {
+  width: 100%;
+  background: #e4ffe1;
+  margin-top: 25px;
+  padding: 14px;
+}
+.cashback_container_tetx_Z1 {
+  color: #2f9623;
+  font-size: 22.5px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+.cashback_container_extra_Z1 {
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 2px;
+}
+.try_gogo_offer_btn {
+  width: 100%;
+  padding: 14px;
+  background: #2f9623;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.try_gogo_offer_text {
+  width: 112px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.try_gogo_offer_img {
+  width: 20px;
 }
