@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
@@ -10,116 +9,216 @@
     <!-- FontFam -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <div class="parent_div_z1">
-        <div class="d-flex justify-content-between">
-            <div class="d-flex flex-column">
-                <div class="d-flex align-items-center">
-                    <img class="grop-img_z1" src="assets\Group1.png" alt="">
-                    <div class="main_name_z1">Abad Sait</div>
-                    <img class="down-arrow_z1" src="assets\Vector.png" alt="">
-                </div>
-                <div class="location_z1">Abad Plaza, Bengaluru, Karnataka....</div>
+      <div class="d-flex justify-content-between">
+        <div class="d-flex flex-column">
+          <div class="d-flex align-items-center">
+            <img class="grop-img_z1" src="assets\Group1.png" alt="" />
+            <div class="main_name_z1">Abad Sait</div>
+            <img class="down-arrow_z1" src="assets\Vector.png" alt="" />
+          </div>
+          <div class="location_z1">Abad Plaza, Bengaluru, Karnataka....</div>
+        </div>
+        <img class="profile_z1" src="assets\user 1.png" alt="" />
+      </div>
+
+      <div class="searc_bar_container_z1">
+        <input type="text" placeholder="Search “condom”" name="" />
+      </div>
+      <!-- blue contaner courcel -->
+      <div class="first_courcel_z1">
+        <div class="courcel_content_z1" id="courcel_content_z1">
+          <div class="courcel_items_z1">
+            <div class="d-flex">
+              <img src="assets\Group 1721 1.png" alt="" />
+              <div style="line-height: 0; padding-left: 3px">
+                <span class="get_in_z1"
+                  >Get farm fresh milk delivered <br /></span
+                ><span class="at_yout_text_1z">at your Door Step</span>
+              </div>
             </div>
-            <img class="profile_z1" src="assets\user 1.png" alt="">
+            <div class="subscribe_btn_z1">
+              <div class="sub_btn_text_z1">Subscribe</div>
+            </div>
+          </div>
+          <div class="courcel_items_z1">
+            <div class="d-flex">
+              <img src="assets\Group 1721 1.png" alt="" />
+              <div style="line-height: 0; padding-left: 3px">
+                <span class="get_in_z1"
+                  >Get farm fresh milk delivered <br /></span
+                ><span class="at_yout_text_1z">at your Door Step</span>
+              </div>
+            </div>
+            <div class="subscribe_btn_z1">
+              <div class="sub_btn_text_z1">Subscribe</div>
+            </div>
+          </div>
         </div>
 
-        <div class="searc_bar_container_z1">
-            <input type="text" placeholder="Search “condom”" name="">
+        <!-- Dot indicators -->
+        <div class="courcel-indicator_z1">
+          <span class="dot active" onclick="setCurrentSlide(0)"></span>
+          <span class="dot" onclick="setCurrentSlide(1)"></span>
         </div>
-        <!-- blue contaner courcel -->
-        <div class="first_courcel_z1">
-            <div class="courcel_content_z1" id="courcel_content_z1">
-                <div class="courcel_items_z1">
-                    <div class="d-flex">
-                        <img src="assets\Group 1721 1.png" alt="">
-                        <div style="line-height: 0;padding-left: 3px;"><span class="get_in_z1">Get farm fresh milk delivered <br/></span><span class="at_yout_text_1z">at your Door Step</span></div>
-                    </div>
-                    <div class="subscribe_btn_z1">
-                        <div class="sub_btn_text_z1">Subscribe</div>
-                    </div>
-                </div>
-                <div class="courcel_items_z1">
-                    <div class="d-flex">
-                        <img src="assets\Group 1721 1.png" alt="">
-                        <div style="line-height: 0;padding-left: 3px;"><span class="get_in_z1">Get farm fresh milk delivered <br/></span><span class="at_yout_text_1z">at your Door Step</span></div>
-                    </div>
-                    <div class="subscribe_btn_z1">
-                        <div class="sub_btn_text_z1">Subscribe</div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <!-- Direct From Farm category-->
+      <div class="Direct_main_z1">
+        <div class="line_z1"></div>
+        <div class="head_category_z1">Direct From Farm</div>
+        <div class="line_z2"></div>
+      </div>
+      <div class="category_horizontal_move" style="margin-top: 15px">
+        <div
+          class="category_main_boxz1"
+          id="category_main_boxz1"
+          style="display: none"
+        >
+          <img class="category_image_1z1" src="assets\Mask group.png" alt="" />
+          <p class="category_text_1z1">Gingely Oil</p>
+        </div>
+      </div>
+    </div>
+    <!-- /* clould banner */ -->
+    <div style="position: relative">
+      <img class="banner_img_z1z1" src="assets\Group 1744.png" alt="" />
+      <img class="clould_icon_z1" src="assets\heavy-rain 1.png" alt="" />
+      <div class="banner_img_z1z1_text">
+        Riders may slow down to be safe during rains. Don’t worry, your products
+        will be delivered with care!
+      </div>
+    </div>
 
-            <!-- Dot indicators -->
-            <div class="courcel-indicator_z1">
-                <span class="dot_z1 active" onclick="setCurrentSlide(0)"></span>
-                <span class="dot_z1" onclick="setCurrentSlide(1)"></span>
-            </div>
+    <!-- image video contennt dynamic -->
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner" style="height: 505px">
+        <div class="carousel-item active">
+          <video
+            class="d-block w-100"
+            src="videos\Snapinsta.app_video_FB43D98D62B35CEC9D6F8EEA2FCC49AB_video_dashinit.mp4"
+            alt="First slide"
+          />
         </div>
-        <!-- Direct From Farm category-->
-        <div class="Direct_main_z1">
-            <div class="line_z1"></div>
-            <div class="head_category_z1">Direct From Farm</div>
-            <div class="line_z2"></div>
+        <div class="carousel-item">
+          <video
+            class="d-block w-100"
+            src="videos\Snapinsta.app_video_97476308342858815FBF4E3FFE6DD982_video_dashinit.mp4"
+            alt="Second slide"
+          />
         </div>
-        <div class="category_horizontal_move" style="margin-top: 15px;">
-            <div class="category_main_boxz1" id="category_main_boxz1" style="display: none;">
-                <img class="category_image_1z1" src="assets\Mask group.png" alt="">
-                <p class="category_text_1z1">Gingely Oil</p>
-            </div>
-        </div>
-     
-       
-    
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-       <!-- /* clould banner */ -->
-    <div style="position: relative;">
-        <img class="banner_img_z1z1" src="assets\Group 1744.png" alt="">
-        <img class="clould_icon_z1" src="assets\heavy-rain 1.png" alt="">
-        <div class="banner_img_z1z1_text">
-            Riders may slow down to be safe during rains. Don’t worry, your products will be delivered with care!
-        </div>
-    </div>
+
     <!-- Farm Fresh Picks -->
-<div class="parent_div_z1">
-    <div class="d-flex align-items-center">
+    <div class="parent_div_z1">
+      <div class="d-flex align-items-center pb-3 pt-3">
         <div class="farmfreshpiks_z1">Farm Fresh Picks</div>
         <div class="farmfreshpiks_line_z1"></div>
         <div class="farmfreshpiks_line_see_z1">See All</div>
-    </div>
-    <div class="container-fluid">
+      </div>
+      <div class="container-fluid">
         <div class="row" id="home_parent_card_z1">
-            <div class="col-4" id="home_child_card_z1">
-               <div >
-                <div class="card_box_products_z1">
-                    <img class="farmfreshpiks_product_img_z1" src="assets\lays 1.png" alt="">
-                    
-                </div>
-                <div class="Enhances_box_z1 d-flex align-items-center">
-                    <div class="Enhances_dot_z1"></div>
-                    <div class="Enhances_text_z1">Enhances skin & Hair Health</div>
-                </div>
-                <div class="home_product_name_z1">Extra Cheesy lays Classic</div>
-                <div class="home_product_gram_z1">100 g</div>
-                
-                <div class="home_product_price_z1">60-100</div>
-                <div class="home_product_cutprice_z1">60</div>
-               </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
+          <div class="col-4 p-2" id="home_child_card_z1">
+            <div>
+              <div class="card_box_products_z1">
+                <img
+                  class="farmfreshpiks_product_img_z1"
+                  src="assets\lays 1.png"
+                  alt=""
+                />
+              </div>
+              <div class="Enhances_box_z1 d-flex align-items-center">
+                <div class="Enhances_dot_z1"></div>
+                <div class="Enhances_text_z1">Enhances skin & Hair Health</div>
+              </div>
+              <div class="home_product_name_z1">Extra Cheesy lays Classic</div>
+              <div class="home_product_gram_z1">100 g</div>
 
+              <div class="home_product_price_z1">60-100</div>
+              <div class="home_product_cutprice_z1">60</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner_img_z1 -->
+      <div class="banner_img_section_z1 pt-3 pb-3">
+        <img
+          src="assets\Group 109 (1).png"
+          width="100%"
+          style="position: relative"
+          alt=""
+        />
+        <div class="banner_text_section_z1">
+          Subscribe Organic Milk directly from farmers.
+        </div>
+      </div>
+      <!-- farmfreshpiks_z1 -->
+      <div class="d-flex align-items-center">
+        <div class="farmfreshpiks_z1">Exclusive Deal</div>
+        <div class="farmfreshpiks_z1_line"></div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="app_product_z1">
+            <div class="app_product_z1_container">
+              <img src="assets\EGGg 1.png" width="100%" alt="" />
+              <div class="d-flex flex-column pt-0">
+                <div class="app_product_z1_name">Egg</div>
+                <div class="app_product_z1_label">FREE</div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="app_product_z1_price">60</div>
+                <div class="app_product_z1_qua">100 g</div>
+              </div>
+            </div>
+            <img class="app_product_z1_img" src="assets\get.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6">f</div>
+      </div>
+    </div>
+
+    <div style="height: 400px"></div>
     <!-- boostrap -->
     <script src="script.js"></script>
-    <script src="<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-  
 </html>
