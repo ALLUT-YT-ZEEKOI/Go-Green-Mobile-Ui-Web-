@@ -45,6 +45,7 @@ body {
 .searc_bar_container_z1 {
   position: sticky;
   top: 0;
+  z-index: 1000000000000;
 }
 
 .searc_bar_container_z1 input {
@@ -746,7 +747,7 @@ body {
 /* Carousel track styling */
 
 .carousel-content_refer {
-  /* display: flex; */
+  display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
 }

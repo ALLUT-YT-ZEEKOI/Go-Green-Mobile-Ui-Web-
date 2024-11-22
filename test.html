@@ -3,27 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carousel with Slide Animation</title>
+    <title>Continuous Left Sliding Carousel</title>
     <style>
       /* Carousel container styling */
-      .refer_courcel_z1 {
+      .first_courcel_z1 {
         width: 100%;
-        background: #ededed;
+        background: #e7f9ff;
         border-radius: 15px;
         margin-top: 21px;
+        padding: 20px;
         overflow: hidden;
         position: relative;
       }
 
       /* Carousel track styling */
-      .carousel-content_refer {
+      .carousel-content {
         display: flex;
-        transition: transform 0.5s ease-in-out;
-        width: 300%; /* Adjusted width to fit all items */
+        transition: transform 0.5s linear;
+        will-change: transform;
       }
 
       /* Each carousel item */
-      .carousel-item_refer {
+      .carousel-item {
         flex: 0 0 100%;
         display: flex;
         align-items: center;
@@ -32,18 +33,32 @@
       }
 
       /* Image and text styles */
-      .refer_courcel_z1 img {
+      .first_courcel_z1 img {
         width: 42px;
         margin-right: 10px;
       }
 
+      .get_in_z1 {
+        color: #212121;
+        font-size: 15px;
+        line-height: 2;
+        font-weight: 500;
+      }
+
+      .at_yout_text_1z {
+        color: #212121;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
       /* Dot indicators */
-      .carousel-indicators_refer {
+      .carousel-indicators {
         text-align: center;
         margin-top: 10px;
       }
 
-      .dot_refer {
+      .dot {
         height: 10px;
         width: 10px;
         margin: 0 5px;
@@ -54,199 +69,120 @@
         cursor: pointer;
       }
 
-      .dot_refer.active {
+      .dot.active {
         background-color: #047abc;
       }
     </style>
   </head>
 
   <body>
-    <div class="refer_courcel_z1">
-      <div class="carousel-content_refer" id="carouselContent_refer">
+    <div class="first_courcel_z1">
+      <div class="carousel-content" id="carouselContent">
+        <!-- Cloned Slide (last for seamless loop) -->
+        <div class="carousel-item">
+          <div class="d-flex">
+            <img src="assets/Group 1721 1.png" alt="" />
+            <div style="line-height: 1.2; padding-left: 3px">
+              <span class="get_in_z1">Enjoy organic produce delivered</span
+              ><br />
+              <span class="at_yout_text_1z">right to your home</span>
+            </div>
+          </div>
+        </div>
         <!-- Slide 1 -->
-        <div class="carousel-item_refer">
-          <div class="d-flex flex-column">
-            <div
-              style="
-                color: #2383b8;
-                font-size: 12px;
-                font-family: Roboto;
-                font-weight: 300;
-                line-height: 23.45px;
-                word-wrap: break-word;
-              "
-            >
-              Easiest way to
+        <div class="carousel-item">
+          <div class="d-flex">
+            <img src="assets/Group 1721 1.png" alt="" />
+            <div style="line-height: 1.2; padding-left: 3px">
+              <span class="get_in_z1">Get farm fresh milk delivered</span><br />
+              <span class="at_yout_text_1z">at your Door Step</span>
             </div>
-            <div style="display: flex">
-              <div class="d-flex flex-column">
-                <div
-                  style="
-                    color: #1a232e;
-                    font-size: 22.5px;
-                    font-family: Roboto;
-                    font-weight: 700;
-                    line-height: 23.45px;
-                    word-wrap: break-word;
-                  "
-                >
-                  Refer And Earn!
-                </div>
-                <div
-                  style="
-                    color: #1a232e;
-                    font-size: 12px;
-                    font-family: Roboto;
-                    font-weight: 300;
-                    line-height: 17px;
-                    word-wrap: break-word;
-                  "
-                >
-                  Earn for each referral, and enjoy <br />up to 2500 GGO Money.
-                </div>
-              </div>
-              <img src="assets/budget1.png" width="100%" alt="" />
-            </div>
-            <button>Button</button>
           </div>
         </div>
         <!-- Slide 2 -->
-        <div class="carousel-item_refer">
-          <div class="d-flex flex-column">
-            <div
-              style="
-                color: #2383b8;
-                font-size: 12px;
-                font-family: Roboto;
-                font-weight: 300;
-                line-height: 23.45px;
-                word-wrap: break-word;
-              "
-            >
-              Easiest way to
+        <div class="carousel-item">
+          <div class="d-flex">
+            <img src="assets/Group 1721 1.png" alt="" />
+            <div style="line-height: 1.2; padding-left: 3px">
+              <span class="get_in_z1">Enjoy organic produce delivered</span
+              ><br />
+              <span class="at_yout_text_1z">right to your home</span>
             </div>
-            <div style="display: flex">
-              <div class="d-flex flex-column">
-                <div
-                  style="
-                    color: #1a232e;
-                    font-size: 22.5px;
-                    font-family: Roboto;
-                    font-weight: 700;
-                    line-height: 23.45px;
-                    word-wrap: break-word;
-                  "
-                >
-                  Refer And Earn!
-                </div>
-                <div
-                  style="
-                    color: #1a232e;
-                    font-size: 12px;
-                    font-family: Roboto;
-                    font-weight: 300;
-                    line-height: 17px;
-                    word-wrap: break-word;
-                  "
-                >
-                  Earn for each referral, and enjoy <br />up to 2500 GGO Money.
-                </div>
-              </div>
-              <img src="assets/budget1.png" width="100%" alt="" />
-            </div>
-            <button>Button</button>
           </div>
         </div>
-        <!-- Slide 3 -->
-        <div class="carousel-item_refer">
-          <div class="d-flex flex-column">
-            <div
-              style="
-                color: #2383b8;
-                font-size: 12px;
-                font-family: Roboto;
-                font-weight: 300;
-                line-height: 23.45px;
-                word-wrap: break-word;
-              "
-            >
-              Easiest way to
+        <!-- Cloned Slide (first for seamless loop) -->
+        <div class="carousel-item">
+          <div class="d-flex">
+            <img src="assets/Group 1721 1.png" alt="" />
+            <div style="line-height: 1.2; padding-left: 3px">
+              <span class="get_in_z1">Get farm fresh milk delivered</span><br />
+              <span class="at_yout_text_1z">at your Door Step</span>
             </div>
-            <div style="display: flex">
-              <div class="d-flex flex-column">
-                <div
-                  style="
-                    color: #1a232e;
-                    font-size: 22.5px;
-                    font-family: Roboto;
-                    font-weight: 700;
-                    line-height: 23.45px;
-                    word-wrap: break-word;
-                  "
-                >
-                  Refer And Earn!
-                </div>
-                <div
-                  style="
-                    color: #1a232e;
-                    font-size: 12px;
-                    font-family: Roboto;
-                    font-weight: 300;
-                    line-height: 17px;
-                    word-wrap: break-word;
-                  "
-                >
-                  Earn for each referral, and enjoy <br />up to 2500 GGO Money.
-                </div>
-              </div>
-              <img src="assets/budget1.png" width="100%" alt="" />
-            </div>
-            <button>Button</button>
           </div>
         </div>
       </div>
-
       <!-- Dot indicators -->
-      <div class="carousel-indicators_refer">
-        <span class="dot_refer active" onclick="setCurrentSlide(0)"></span>
-        <span class="dot_refer" onclick="setCurrentSlide(1)"></span>
-        <span class="dot_refer" onclick="setCurrentSlide(2)"></span>
+      <div class="carousel-indicators">
+        <span class="dot active" onclick="setCurrentSlide(0)"></span>
+        <span class="dot" onclick="setCurrentSlide(1)"></span>
       </div>
     </div>
 
     <script>
-      function initCarousel(carouselContentId, dotClass, interval = 3000) {
-        let currentSlideIndex = 0;
-        const carouselContent = document.getElementById(carouselContentId);
-        const dots = document.querySelectorAll(`.${dotClass}`);
+      const carouselContent = document.getElementById("carouselContent");
+      const dots = document.querySelectorAll(".dot");
+      const slideWidth = 100; // Slide width in percentage
+      let currentSlideIndex = 1; // Start from the first real slide
+      let isTransitioning = false;
 
-        function updateCarousel() {
-          const offset = -currentSlideIndex * 100;
-          carouselContent.style.transform = `translateX(${offset}%)`;
+      // Update carousel position and dots
+      function updateCarousel() {
+        const offset = -currentSlideIndex * slideWidth;
+        carouselContent.style.transform = `translateX(${offset}%)`;
 
-          // Update active dot
-          dots.forEach((dot, index) => {
-            dot.classList.toggle("active", index === currentSlideIndex);
-          });
-        }
-
-        function nextSlide() {
-          // Increment the index, but ensure it wraps around
-          currentSlideIndex = (currentSlideIndex + 1) % dots.length;
-          updateCarousel();
-        }
-
-        function setCurrentSlide(index) {
-          currentSlideIndex = index;
-          updateCarousel();
-        }
-
-        setInterval(nextSlide, interval);
-
-        return { nextSlide, setCurrentSlide };
+        // Update dots (use modulo to stay within bounds)
+        dots.forEach((dot, index) => {
+          dot.classList.toggle(
+            "active",
+            index === (currentSlideIndex - 1) % dots.length
+          );
+        });
       }
 
-      const carousel = initCarousel("carouselContent_refer", "dot_refer");
+      // Move to the next slide
+      function nextSlide() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        currentSlideIndex++;
+        carouselContent.style.transition = "transform 0.5s linear";
+        updateCarousel();
+
+        // Seamless transition
+        carouselContent.addEventListener(
+          "transitionend",
+          () => {
+            if (currentSlideIndex === carouselContent.children.length - 1) {
+              carouselContent.style.transition = "none";
+              currentSlideIndex = 1; // Reset to the first real slide
+              updateCarousel();
+            }
+            isTransitioning = false;
+          },
+          { once: true }
+        );
+      }
+
+      // Start auto-slide
+      setInterval(nextSlide, 3000);
+
+      // Update the current slide when clicking dots
+      function setCurrentSlide(index) {
+        currentSlideIndex = index + 1; // Adjust for the cloned slide
+        updateCarousel();
+      }
+
+      // Initialize carousel
+      updateCarousel();
     </script>
   </body>
 </html>
