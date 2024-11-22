@@ -453,7 +453,7 @@ body {
   font-size: 12px;
   font-family: Poppins;
   font-weight: 400;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .cart_add_z1 {
@@ -537,7 +537,7 @@ body {
 
 .text_view_all {
   color: #f28b51;
-  font-size: 11px;
+  font-size: 12px;
   font-family: Poppins;
   font-weight: 500;
   word-wrap: break-word;
@@ -608,7 +608,7 @@ body {
 
 .normal_price_amt_z1 {
   color: black;
-  font-size: 10px;
+  font-size: 12px;
   font-family: Poppins;
   font-weight: 500;
   word-wrap: break-word;
@@ -641,7 +641,7 @@ body {
 }
 .itemtotal_text_z1111 {
   color: #047abc;
-  font-size: 6px;
+  font-size: 11px;
   font-family: Poppins;
   font-weight: 400;
   word-wrap: break-word;
@@ -727,4 +727,125 @@ body {
 }
 .try_gogo_offer_img {
   width: 20px;
+}
+
+/* refer courcel
+ */
+/* Carousel container styling */
+
+.refer_courcel_z1 {
+  width: 100%;
+  background: #ededed;
+  border-radius: 15px;
+  margin-top: 21px;
+  padding: 12px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+/* Carousel track styling */
+
+.carousel-content_refer {
+  /* display: flex; */
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+/* Each carousel item */
+
+.carousel-item_refer {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 26px;
+}
+/* Image and text styles */
+
+.refer_courcel_z1 img {
+  width: 100px;
+}
+
+/* Dot indicators */
+
+.carousel-indicators_refer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot_refer {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.dot_refer.active {
+  background-color: #047abc;
+}
+
+.refer_container_text_z1 {
+  color: #2383b8;
+  font-size: 12px;
+  font-weight: 300;
+}
+.refer_container_text_2_z1 {
+  color: #1a232e;
+  font-size: 22px;
+  font-weight: 700;
+}
+.refer_container_text_3_z1 {
+  color: #1a232e;
+  font-size: 18px;
+  font-weight: 300;
+}
+.refer_container_img_z1 {
+}
+.refer_container_btn_z1 {
+  width: 100%;
+  background: #2383b8;
+  box-shadow: 0px 0px 3.587878942489624px rgba(0, 0, 0, 0.08);
+  border-radius: 16.15px;
+  border: navajowhite;
+  padding: 12px;
+  color: white;
+  margin-top: 10px;
+}
+
+/* home last section */
+.home_lst_section {
+  color: #969696;
+  font-size: 13.55px;
+  font-weight: 400;
+}
+.home_2st_section {
+  color: #2f9623;
+  font-size: 29.01px;
+  font-weight: 900;
+}
+.home_4st_section {
+  color: #8b8b8b;
+  font-size: 42.37px;
+  font-weight: 700;
+  line-height: 1;
+}
+.bottom_bar_nav_z1 {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 10000000;
+}
+.bottom_bar_nav_z1 img {
+  width: 25px;
+  height: 27px;
+}
+.bottom_bar_nav_z1 p {
+  color: #717171;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0px;
 }

@@ -1,27 +1,35 @@
-let currentSlideIndex = 0;
-const carouselContent = document.getElementById("courcel_content_z1");
-const dots = document.querySelectorAll(".dot");
+// function initCarousel(carouselContentId, dotClass, interval = 3000) {
+//   let currentSlideIndex = 0;
+//   const carouselContent = document.getElementById(carouselContentId);
+//   const dots = document.querySelectorAll(`.${dotClass}`);
 
-function updateCarousel() {
-  const offset = -currentSlideIndex * 100; // Offset for sliding effect
-  carouselContent.style.transform = `translateX(${offset}%)`;
+//   function updateCarousel() {
+//     const offset = -currentSlideIndex * 100;
+//     carouselContent.style.transform = `translateX(${offset}%)`;
 
-  // Update active dot
-  dots.forEach((dot, index) => {
-    dot.classList.toggle("active", index === currentSlideIndex);
-  });
-}
+//     // Update active dot
+//     dots.forEach((dot, index) => {
+//       dot.classList.toggle("active", index === currentSlideIndex);
+//     });
+//   }
 
-function nextSlide() {
-  currentSlideIndex = (currentSlideIndex + 1) % dots.length;
-  updateCarousel();
-}
+//   function nextSlide() {
+//     currentSlideIndex = (currentSlideIndex + 1) % dots.length;
+//     updateCarousel();
+//   }
 
-function setCurrentSlide(index) {
-  currentSlideIndex = index;
-  updateCarousel();
-}
-setInterval(nextSlide, 3000);
+//   function setCurrentSlide(index) {
+//     currentSlideIndex = index;
+//     updateCarousel();
+//   }
+
+//   setInterval(nextSlide, interval);
+
+//   return { nextSlide, setCurrentSlide };
+// }
+
+// const carousel1 = initCarousel("courcel_content_z1", "dot");
+// const carousel2 = initCarousel("carouselContent_refer", "dot_refer");
 
 //  <!-- Direct From Farm category-->
 let category_horizontal_move_loop = document.querySelector(
